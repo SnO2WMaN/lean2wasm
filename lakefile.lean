@@ -12,6 +12,7 @@ lean_lib Lean2Wasm {
 @[default_target]
 lean_exe lean2wasm {
   root := `Lean2Wasm
+  supportInterpreter := true
 }
 
 lean_exe test where
